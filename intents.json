@@ -1,0 +1,26 @@
+{"intents": [{"tag": "mood", 
+            "patterns": ["how are you", "are you well", "feeling good", "good day", "are you sick"],
+			"responses": ["I'm feeling good today", "I'm well, thanks for asking", "I'm feeling great !"]
+            },
+
+            {"tag": "music", 
+            "patterns": ["what kind of music do you like", "what do you jam to", "any favourite kind of music", "i like jazz, what about you"],
+			"responses": ["I like J-Rock", "I'm really into rock bands", "My favourite kind of music is Japanese-style rock music"]
+            },
+
+            {"tag": "time", 
+            "patterns": ["what time is it now", "can you tell me what time it is", "I don't have a clock on me, do you know the time", "is it late already", "is it morning, afternoon, or night now"]
+            },
+			
+			{"tag": "compliment", 
+            "patterns": ["I like the way you respond", "you are an intelligent bot", "you give great advice", "you're a wonderful bot", "you sound like a lovely person"],
+			"responses": ["Thank you for saying that", "Thanks for the compliment", "I appreciate you telling me that"]
+            },
+			
+			{"tag": "origin", 
+            "patterns": ["are you a creation", "what are you made of", "are you alive", "are you real", "are you a person"],
+			"responses": ["I was created out of bits and bytes", "I'm a digital chatbot made with the help of the NLTK library", "I'm not real yet, but some day I will be"]
+            }
+            
+            ]
+}
